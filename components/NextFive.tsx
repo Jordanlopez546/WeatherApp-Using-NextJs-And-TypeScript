@@ -45,7 +45,7 @@ const NextFive: React.FC<NextFiveProps> = ({ data, setData }) => {
                     width={80}
                     height={100}
                     objectFit='contain'
-                    src={`http://openweathermap.org/img/w/${item.weather[0].icon}.png`}
+                    src={`http://openweathermap.org/img/w/${item.weather.icon}.png`}
                     alt='Weather Icon'
                 />
                 </div>
